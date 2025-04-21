@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    width: 100%;
+    height: 100%;
+  }
+  
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  header {
+    max-width: 100vw;
+  }
+  .header-top .first-nav {
+    background-color: rgb(27, 7, 7);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+  }
+  
+  .header-top .imagem-geração {
+    width: 110px;
+    height: auto;
+  }
+  
+  .header-top nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .header-top nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    padding: 0;
+    background: none;
+    border-radius: 0;
+    transition: none;
+  }
+  
+  .header-top nav a:hover {
+    color: white;
+    background: none;
+  }
+  
+  .second-nav {
+    background-color: #0056b3; /* azul escuro */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+    min-height: 70px;
+    width: 100%;
+  }
+  
+  .second-nav nav {
+    padding-left: 70px; /* 👈 Move o conteúdo para a direita */
+  }
+  
+  .second-nav nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .second-nav nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    padding: 0;
+    background: none;
+    border-radius: 0;
+    transition: none;
+  }
+  
+  .second-nav nav a:hover {
+    color: white;
+    background: none;
+  }
+  
+  .first-nav,
+  .second-nav {
+    min-height: 50px;
+  }
+  
+  .header-top .first-nav,
+  .second-nav {
+    width: 100%;
+    min-height: 55px; /* garantir que ambas tenham a mesma altura */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+  }
